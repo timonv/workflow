@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'workflow/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "workflow"
+  gem.name          = "workflow-rails4"
   gem.version       = Workflow::VERSION
-  gem.authors       = ["Vladimir Dobriakov"]
+  gem.authors       = ["Vladimir Dobriakov", "Timon Vonk"]
   gem.email         = ["vladimir@geekq.net"]
-  gem.description = "    Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n"
+  gem.description = "    Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n Temporary version to address possible rails4 issues"
   gem.summary       = %q{A replacement for acts_as_state_machine.}
   gem.homepage = "http://www.geekq.net/workflow/"
 
