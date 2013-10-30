@@ -4,6 +4,7 @@ require 'rdoc/task'
 
 require 'bundler'
 Bundler.setup
+Bundler::GemHelper.install_tasks
 
 task :default => [:test]
 
