@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/geekq/workflow.png?branch=master)](https://travis-ci.org/geekq/workflow)
+[![Build Status](https://travis-ci.org/timonv/workflow.png?branch=master)](https://travis-ci.org/timonv/workflow)
+
+__This is a temporary branch to address (possible) rails4 issues__
 
 
 What is workflow?
@@ -100,7 +102,7 @@ event (transition) defined for the current state.
 Installation
 ------------
 
-    gem install workflow
+    gem install workflow-rails4
 
 **Important**: If you're interested in graphing your workflow state machine, you will also need to
 install the `active_support` and `ruby-graphviz` gems.
